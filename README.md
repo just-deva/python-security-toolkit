@@ -12,7 +12,8 @@ Instead of having my scripts scattered across my profile, I use this directory t
 | :--- | :--- | :--- | :--- |
 | **Password Strength Evaluator** | Defensive Policy & Entropy | Python, Regex | [View Project](https://github.com/just-deva/password_generator) |
 | **Secure Password Generator** | Cryptographic Randomness | Python | [View Project](https://github.com/just-deva/password_strength_evaluator) |
-| *Coming Soon* | *TBD* | *Python* | - |
+| **Symmetric Message Encryptor** | Cryptography & Confidentiality | Python,Cryptography Lib | [View Project](https://github.com/just-deva/Message_encryptor_and_decryptor) |
+| **Dictionary Password Cracker** | Offensive Security (Red Team) | Python, Hashlib | [View Project](https://github.com/just-deva/python_password_cracker) |
 
 <br>
 
