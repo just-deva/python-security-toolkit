@@ -10,9 +10,23 @@
 
 **A modular Python security suite providing cryptographically secure password generation, strength evaluation, password cracking, and symmetric message and file encryption.**
 
-[Core Modules](#-core-modules) • [System Architecture](#%EF%B8%8F-system-architecture) • [Crypto Specs](#-cryptographic-specifications) • [Installation](#-installation--setup) • [Usage Guide](#-usage-guide) • [Disclaimer](#-disclaimer)
+[Sub-Project Repositories](#-individual-project-repositories) • [Core Modules](#-core-modules) • [System Architecture](#%EF%B8%8F-system-architecture) • [Crypto Specs](#-cryptographic-specifications) • [Installation](#-installation--setup) • [Usage Guide](#-usage-guide) • [Disclaimer](#-disclaimer)
 
 </div>
+
+---
+
+## 🔗 Individual Project Repositories
+
+This toolkit consolidates several standalone security & cryptography utilities. You can explore, contribute to, or inspect the standalone repositories for each individual project below:
+
+> | Project Module | Description | Repository Link |
+> | :--- | :--- | :--- |
+> | 🔑 **Password Generator** | CSPRNG-based password generator with custom rules | [![Repo](https://img.shields.io/badge/GitHub-Password_Generator-181717?style=flat&logo=github)](https://github.com/just-deva/password-generator) |
+> | 📊 **Password Strength Evaluator** | Shannon entropy calculator & pattern analyzer | [![Repo](https://img.shields.io/badge/GitHub-Strength_Evaluator-181717?style=flat&logo=github)](https://github.com/just-deva/password-strength-evaluator) |
+> | 🔓 **Python Password Cracker** | Multi-threaded hash cracker & dictionary audit tool | [![Repo](https://img.shields.io/badge/GitHub-Password_Cracker-181717?style=flat&logo=github)](https://github.com/just-deva/python-password-cracker) |
+> | ✉️ **Symmetric Message Encryptor** | Authenticated string message encryption engine | [![Repo](https://img.shields.io/badge/GitHub-Message_Encryptor-181717?style=flat&logo=github)](https://github.com/just-deva/symmetric-message-encryptor) |
+> | 📁 **Symmetric File Encryptor** | PBKDF2 + AES-256 data-at-rest file encryption | [![Repo](https://img.shields.io/badge/GitHub-File_Encryptor-181717?style=flat&logo=github)](https://github.com/just-deva/symmetric-file-encryptor) |
 
 ---
 
@@ -42,15 +56,3 @@ graph TD
 
     %% Primitives
     subgraph Engine ["⚡ Cryptographic Engine & Primitives"]
-        CSPRNG[CSPRNG / secrets module]
-        ENTROPY[Shannon Entropy Math Engine]
-        KDF[PBKDF2-HMAC-SHA256 Derivation]
-        AES[AES-256 / Fernet Cipher Engine]
-        HASH[MD5 / SHA-1 / SHA-256 / SHA-512 Engine]
-    end
-
-    CLI --> GEN & EVAL & CRACK & SME & SFE
-    GEN --> CSPRNG
-    EVAL --> ENTROPY
-    CRACK --> HASH
-    SME & SFE --> KDF --> AES
