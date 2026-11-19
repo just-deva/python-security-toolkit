@@ -22,11 +22,11 @@ This toolkit consolidates several standalone security & cryptography utilities. 
 
 | Project Module | Description | Repository Link |
 | :--- | :--- | :--- |
-| 🔑 **Password Generator** | CSPRNG-based password generator with custom rules | [password-generator](https://github.com/just-deva/password-generator) |
-| 📊 **Password Strength Evaluator** | Shannon entropy calculator & pattern analyzer | [password-strength-evaluator](https://github.com/just-deva/password-strength-evaluator) |
-| 🔓 **Python Password Cracker** | Multi-threaded hash cracker & dictionary audit tool | [python-password-cracker](https://github.com/just-deva/python-password-cracker) |
-| ✉️ **Symmetric Message Encryptor** | Authenticated string message encryption engine | [symmetric-message-encryptor](https://github.com/just-deva/symmetric-message-encryptor) |
-| 📁 **Symmetric File Encryptor** | PBKDF2 + AES-256 data-at-rest file encryption | [symmetric-file-encryptor](https://github.com/just-deva/symmetric-file-encryptor) |
+| 🔑 **Password Generator** | CSPRNG-based password generator with custom rules | [password-generator](https://github.com/just-deva/password_generator) |
+| 📊 **Password Strength Evaluator** | Shannon entropy calculator & pattern analyzer | [password-strength-evaluator](https://github.com/just-deva/password_strength_evaluator) |
+| 🔓 **Python Password Cracker** | Multi-threaded hash cracker & dictionary audit tool | [python-password-cracker](https://github.com/just-deva/python_password_cracker) |
+| ✉️ **Symmetric Message Encryptor** | Authenticated string message encryption engine | [symmetric-message-encryptor](https://github.com/just-deva/symmetric_message-_ncryptor) |
+| 📁 **Symmetric File Encryptor** | PBKDF2 + AES-256 data-at-rest file encryption | [symmetric-file-encryptor](https://github.com/just-deva/symmetric_file_encryptor) |
 
 ---
 
